@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact</title>
+  <title>Contact Us - Bright Future Coaching</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<header>
+  <h1>Bright Future Coaching</h1>
+</header>
 
 <nav>
   <a href="index.html">Home</a>
@@ -15,16 +20,51 @@
 </nav>
 
 <section class="container">
-  <h1>Contact Us</h1>
 
-  <form class="card">
-    <input type="text" placeholder="Name"><br><br>
-    <input type="email" placeholder="Email"><br><br>
-    <textarea placeholder="Message"></textarea><br><br>
-    <button>Submit</button>
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you! Fill out the form below and we’ll get back to you soon.</p>
+
+  <!-- Contact Info -->
+  <div class="card">
+    <p><b>Email:</b> info@brightfuture.com</p>
+    <p><b>Phone:</b> 9876543210</p>
+    <p><b>Location:</b> Ahmedabad, India</p>
+  </div>
+
+  <br>
+
+  <!-- Contact Form -->
+  <form>
+    <label>Full Name:</label>
+    <input type="text" placeholder="Enter your full name" required>
+
+    <label>Email:</label>
+    <input type="email" placeholder="Enter your email address" required>
+
+    <label>Phone Number:</label>
+    <input type="tel" placeholder="Enter your phone number">
+
+    <label>Select Course:</label>
+    <select>
+      <option>--Select Course--</option>
+      <option>Web Development</option>
+      <option>Java Programming</option>
+      <option>Computer Networks</option>
+      <option>Cyber Security</option>
+    </select>
+
+    <label>Your Message:</label>
+    <textarea placeholder="I want to join a course. Please share details about fees, timings, and batches."></textarea>
+
+    <button type="submit">Send Message</button>
   </form>
 
 </section>
+
+<footer>
+  <p>© 2026 Bright Future Coaching</p>
+  <p>Created by: Snehaa, Vanshika & Nai Rudra</p>
+</footer>
 
 </body>
 </html>
